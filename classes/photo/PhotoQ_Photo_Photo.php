@@ -533,17 +533,10 @@ abstract class PhotoQ_Photo_Photo
 	
 	private function _getAdminThumbURL(PhotoQ_Photo_Dimension $dimension)
 	{
-		$phpThumbLocation = 
-			PhotoQHelper::getRelUrlFromPath(PHOTOQ_PATH.'lib/phpThumb_1.7.9x/phpThumb.php?');
-		$phpThumbParameters = 
-			'src='.$this->getPath().
-			'&amp;w='.$dimension->getWidth().'&amp;h='.$dimension->getHeight();
-		$imagemagickPath = $this->_oc->getValue('imagemagickPath') ? 
-			$this->_oc->getValue('imagemagickPath') : NULL;
-		if($imagemagickPath)
-			$phpThumbParameters .= '&amp;impath='.$imagemagickPath;
-		
-		return $phpThumbLocation.$phpThumbParameters;
+		require_once(PHOTOQ_PATH.'lib/phpthumb-3-0/ThumbLib.inc.php');
+		$thumb = PhpThumbFactory::create($this->getPath());  
+		$thumb->resize($dimension->getWidth(), $dimension->getHeight());  
+		return $thumb->show();   
 	}
 	
 	

@@ -3,7 +3,7 @@ Contributors: whoismanu
 Donate link: http://www.whoismanu.com/blog/
 Tags: photoq, images, photos, photoblog, photo, upload, thumbnail, photo, picture, pictures, post, automatic, lightbox, admin, flash, photoq photoblog
 Requires at least: 3.0
-Tested up to: 3.1
+Tested up to: 3.5
 Stable tag: 2.0
 
 Turns WordPress into a photoblog. Allows queue based photo management, batch uploads and automatic 
