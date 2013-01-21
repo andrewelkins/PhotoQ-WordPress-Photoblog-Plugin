@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+
+<project name="PhotoQ" basedir="./test" default="test">
+	
+	<fileset dir="." id="testfiles">
+  		<include name="PhotoQ*Test.php"/>
+	</fileset>
+	<fileset dir="../classes" id="classes">
+	  		<include name="**/*.php"/>
+	</fileset>
+
+	
+	<target name="lint" description="Check syntax of source.">
+		<phplint>
+	    	<fileset refid="classes" />
+	    </phplint>
+	 </target>
+	
+	<target name="test">
+    	<phpunit haltonfailure="true" printsummary="true" codecoverage="true">
+	      	<batchtest>
+	        	<fileset refid="testfiles" />
+	      	</batchtest>
+    	</phpunit>
+ 	</target>
+	
+	<target name="doc" description="Generate API docs.">
+		<phpdoc title="API Documentation"
+		  destdir="../phpdoc"
+		  sourcecode="true"
+		  output="HTML:Smarty:PHP">
+		   <fileset dir="../classes">
+		      <include name="**/*.php" />
+		   </fileset>
+		   <projdocfileset dir=".">
+		      <include name="README" />
+		      <include name="INSTALL" />
+		      <include name="CHANGELOG" />
+		   </projdocfileset>
+		</phpdoc>
+	</target>
+	
+	<target name="prepare">
+	    <mkdir dir="coverage-report"/>
+	  </target>
+
+	  <target name="clean"> 
+	    <delete dir="coverage-report"/>
+	  </target>
+
+	  <target name="coverage-report" depends="prepare">
+	    <coverage-setup database="./coverage-report/database">
+	      <fileset dir=".">
+	        <include name="*.php"/>
+	        <exclude name="*Test.php"/>
+	      </fileset>
+	    </coverage-setup>
+
+	    <phpunit codecoverage="true">
+	      <batchtest>
+	        <fileset dir=".">
+	          <include name="*Test.php"/>
+	        </fileset>
+	      </batchtest>
+	    </phpunit>
+
+	    <coverage-report outfile="coverage-report/coverage.xml">
+	      <report styledir="/usr/lib/php/data/phing/etc"
+	              todir="coverage-report"/>
+	    </coverage-report>
+	  </target>
+
+
+	
+</project>

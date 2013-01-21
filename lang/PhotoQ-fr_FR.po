@@ -1,0 +1,1269 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PhotoQ Photoblog\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-22 11:28+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ulrich SOSSOU <sorich87@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../whoismanu-photoq-ajax.php:31
+#: ../whoismanu-photoq-ajax.php:60
+msgid "You do not have sufficient privileges to perform this task"
+msgstr "Vous n'avez pas les permissions suffisantes pour effectuer cette action"
+
+#: ../whoismanu-photoq-ajax.php:80
+msgid "Save Changes"
+msgstr "Enregistrer les Modifications"
+
+#: ../whoismanu-photoq-ajax.php:82
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../classes/PhotoQ.php:185
+msgid "PhotoQ Options"
+msgstr "Options PhotoQ"
+
+#: ../classes/PhotoQ.php:187
+msgid "Manage PhotoQ"
+msgstr "Gérer PhotoQ"
+
+#: ../classes/PhotoQ.php:228
+#, php-format
+msgid "Number of photos in the queue: %s"
+msgstr "Nombre de photos dans la queue : %s"
+
+#: ../classes/PhotoQ.php:230
+msgid "Next Photos to be published"
+msgstr "Photos Suivantes à publier"
+
+#: ../classes/PhotoQ.php:250
+msgid "Edit Queue"
+msgstr "Editer la Queue"
+
+#: ../classes/PhotoQ.php:254
+msgid "Add Photos to Queue"
+msgstr "Ajouter des Photos à la Queue"
+
+#: ../classes/PhotoQ.php:421
+msgid "Options saved."
+msgstr "Options enregistrées."
+
+#: ../classes/PhotoQ.php:484
+msgid "Updating following image sizes:"
+msgstr "Mise à jour des tailles d'images suivantes :"
+
+#: ../classes/PhotoQ.php:486
+msgid "Updating following views:"
+msgstr "Mise à jour des vues suivantes :"
+
+#: ../classes/PhotoQ.php:488
+msgid "Updating all published Photos..."
+msgstr "Mise à jour de toutes les Photos publiées..."
+
+#: ../classes/PhotoQ.php:519
+msgid "Cleaned old folder structure."
+msgstr "Ancienne structure de dossier nettoyée."
+
+#: ../classes/PhotoQ.php:760
+msgid "No fields so far. You can add some if you like."
+msgstr "Aucun champ pour l'instant. Vous pouvez en ajouter si vous le désirez."
+
+#: ../classes/PhotoQ.php:1029
+msgid "Are you sure you want to cancel the upload?"
+msgstr "Etes-vous sûr de vouloir annuler l'importation?"
+
+#: ../classes/PhotoQ.php:1030
+msgid "All files uploaded."
+msgstr "Tous les fichiers ont été importés."
+
+#: ../classes/PhotoQ.php:1031
+#: ../classes/PhotoQ.php:1090
+msgid "Select Photos..."
+msgstr "Sélection des Photos..."
+
+#: ../classes/PhotoQ.php:1032
+msgid "Uploading"
+msgstr "Importation en cours"
+
+#: ../classes/PhotoQ.php:1033
+msgid "The file"
+msgstr "Le fichier"
+
+#: ../classes/PhotoQ.php:1034
+msgid "has a size of zero."
+msgstr "a une taille nulle."
+
+#: ../classes/PhotoQ.php:1035
+msgid "has an invalid filetype."
+msgstr "est d'un type de fichier non valide."
+
+#: ../classes/PhotoQ.php:1036
+msgid "exceeds the upload file size limit of"
+msgstr "dépasse la limite de téléchargement de"
+
+#: ../classes/PhotoQ.php:1037
+msgid "KB in your php.ini config file."
+msgstr "KB de votre fichier de configuration php.ini."
+
+#: ../classes/PhotoQ.php:1038
+msgid "You have attempted to queue too many files."
+msgstr "Le nombre de fichiers que vous avez essayé d'ajouter à la queue est excessif."
+
+#: ../classes/PhotoQ.php:1039
+msgid "Upload Queue is empty"
+msgstr "La Queue d'Importation est vide"
+
+#: ../classes/PhotoQ.php:1040
+msgid "Add more..."
+msgstr "En ajouter plus..."
+
+#: ../classes/PhotoQ.php:1041
+msgid "photos queued for upload"
+msgstr "photos en attente d'importation"
+
+#: ../classes/PhotoQ.php:1042
+msgid "cancelled"
+msgstr "annulé"
+
+#: ../classes/PhotoQ.php:1131
+msgid "Aborting batch processing due to following error:"
+msgstr "Arrêt du processus de lot à cause de l'erreur suivante :"
+
+#: ../classes/PhotoQ.php:1132
+msgid "Updating done."
+msgstr "Mise à jour terminée."
+
+#: ../classes/PhotoQ.php:1163
+msgid "Show PhotoQ"
+msgstr "Montrer PhotoQ"
+
+#: ../classes/PhotoQ.php:1175
+msgid "PhotoQ Documentation"
+msgstr "Documentation de PhotoQ"
+
+#: ../classes/PhotoQ.php:1176
+msgid "PhotoQ Support Forum"
+msgstr "Forum de Support de PhotoQ"
+
+#: ../classes/PhotoQ.php:1359
+#, php-format
+msgid "Unable to move %1$s to %2$s"
+msgstr "Impossible de déplacer %1$s vers %2$s"
+
+#: ../classes/PhotoQ.php:1403
+#, php-format
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr "Impossible de créer le répertoire %s. Son répertoire parent est-il inscriptible par le serveur?"
+
+#: ../classes/PhotoQ.php:1446
+msgid "New Watermark successfully uploaded. Updating image sizes including watermark..."
+msgstr "Nouveau filigrane importé avec succès. Mise à jour des tailles d'images ayant un filigrane..."
+
+#: ../classes/PhotoQ.php:1457
+msgid "None"
+msgstr "Aucune"
+
+#: ../classes/PhotoQ.php:1795
+#, php-format
+msgid "Import the following photos from: %s"
+msgstr "Importation des photos suivantes de : %s"
+
+#: ../classes/PhotoQ.php:1828
+msgid "PhotoQ is free software. Still, countless of hours went into its development and made PhotoQ what it is today. Have you ever thought of giving something back?"
+msgstr "PhotoQ est un logiciel gratuit. Néanmoins, de longues heures ont été consacrées à son développement et ont fait de PhotoQ ce qu'il est aujourd'hui. Avez-vous déjà pensé donner quelque chose en échange?"
+
+#: ../classes/PhotoQ.php:1829
+msgid "A donation is an easy way of showing the developer your appreciation."
+msgstr "Un don est un moyen facile de montrer au développeur que vous appréciez."
+
+#: ../classes/PhotoQ.php:1830
+msgid "Yes, I support PhotoQ and would like to make a donation"
+msgstr "Oui, je supporte PhotoQ et je voudrais faire un don"
+
+#: ../classes/PhotoQ.php:1830
+msgid "No, thanks"
+msgstr "Non, merci"
+
+#: ../classes/PhotoQ.php:1830
+msgid "I already donated"
+msgstr "J'ai déjà fait un don"
+
+#: ../classes/PhotoQBatch.php:128
+msgid "An error occured in batch processing."
+msgstr "Une erreur est survenue lors du traitement par lot."
+
+#: ../classes/PhotoQBatch.php:187
+msgid "An error occured."
+msgstr "Une erreur est survenue."
+
+#: ../classes/PhotoQDB.php:157
+#, php-format
+msgid "The field with name \"%s\" was successfully added."
+msgstr "Le champ nommé \"%s\" a été ajouté avec succès."
+
+#: ../classes/PhotoQDB.php:232
+#, php-format
+msgid "The field with name \"%s\" was successfully deleted."
+msgstr "Le champ de nom \"%s\" a été supprimé avec succès."
+
+#: ../classes/PhotoQError.php:145
+msgid "Post \"%title%\": The photo \"%imgname%\" could not be found at \"%path%\"."
+msgstr "Article \"%title%\" : La photo \"%imgname%\" n'a pu être trouvée à \"%path%\"."
+
+#: ../classes/PhotoQError.php:146
+msgid "Queued post \"%title%\": The photo \"%imgname%\" could not be found at \"%path%\"."
+msgstr "Article \"%title%\" en attente: La photo \"%imgname%\" n'a pu être trouvée à \"%path%\"."
+
+#: ../classes/PhotoQError.php:147
+msgid "The post with ID \"%id%\" does not seem to exist."
+msgstr "L'article ayant l'ID \"%id%\" semble être inexistant."
+
+#: ../classes/PhotoQError.php:148
+msgid "The file upload failed with the following error: %errMsg%."
+msgstr "L'importation de fichier à échoué avec l'erreur suivante : %errMsg%."
+
+#: ../classes/PhotoQError.php:149
+msgid "The image size \"%sizename%\" is not defined."
+msgstr "La taille d'image \"%sizename%\" n'est pas définie."
+
+#: ../classes/PhotoQError.php:150
+msgid "Unable to move \"%source%\" to \"%dest%\"."
+msgstr "impossible de déplacer \"%source%\" vers \"%dest%\"."
+
+#: ../classes/PhotoQError.php:151
+msgid "Error when registering batch process: No photos updated."
+msgstr "Erreur lors de l'inscription du processus de lot : Aucune photo n'a été mise à jour."
+
+#: ../classes/PhotoQError.php:152
+msgid "Please choose another name, an entry with this name already exists."
+msgstr "Veuillez choisir un autre nom, une entrée avec ce nom existe déjà."
+
+#: ../classes/PhotoQError.php:153
+msgid "Please choose another name, a meta field with name \"%fieldname%\" already exists."
+msgstr "Veuillez choisir un autre nom, un champ meta avec le nom \"%fieldname%\" existe déjà."
+
+#: ../classes/PhotoQError.php:154
+msgid "Please choose another name, a view with name \"%viewname%\" already exists."
+msgstr "Veuillez choisir un autre nom, une vue avec le nom \"%viewname%\" existe déjà."
+
+#: ../classes/PhotoQError.php:155
+msgid "Could not remove image size. The required directories in %imgDir% could not be removed. Please check your settings."
+msgstr "Impossible de supprimer la taille d'image. Les répertoires requis dans %imgDir% n'ont pas pu être supprimés. Veuillez vérifier vos réglages."
+
+#: ../classes/PhotoQError.php:156
+msgid "The XML file \"%filename%\" could not be imported"
+msgstr "Le fichier XML \"%filename%\" n'a pas pu être importé"
+
+#: ../classes/PhotoQError.php:157
+msgid "XML import error: Element %element% was missing in %compName% option."
+msgstr "Erreur d'importation : L'élement %element% est manquant dans l'option %compName%."
+
+#: ../classes/PhotoQError.php:158
+msgid "The option %optionname% that you tried to import is not allowed."
+msgstr "L'option %optionname% que vous avez essayé d'importer n'est pas autorisée."
+
+#: ../classes/PhotoQHelpers.php:433
+msgid "Categories"
+msgstr "Catégories"
+
+#: ../classes/PhotoQImageSize.php:141
+#, php-format
+msgid "Error when creating directory: %s."
+msgstr "Erreur lors de la création du répertoire : %s."
+
+#: ../classes/PhotoQImageSize.php:208
+msgid "Thumb created successfully"
+msgstr "Miniature créée avec succès"
+
+#: ../classes/PhotoQImageSize.php:212
+#: ../classes/PhotoQImageSize.php:216
+#: ../classes/PhotoQImageSize.php:431
+msgid "Failed:"
+msgstr "Echec :"
+
+#: ../classes/PhotoQImageSize.php:410
+msgid "Original photo moved successfully"
+msgstr "Photo originelle déplacée avec succès"
+
+#: ../classes/PhotoQImageSize.php:431
+msgid "Don't call createThumb() on original image."
+msgstr "Veuillez ne pas appeler createThumb() sur l'image originelle."
+
+#: ../classes/PhotoQOptionController.php:52
+msgid "Photoblog Themes"
+msgstr "Thèmes Photoblog"
+
+#: ../classes/PhotoQOptionController.php:53
+msgid "Textblog Themes"
+msgstr "Thèmes Textblog"
+
+#: ../classes/PhotoQOptionController.php:54
+msgid "Mixed (Text/Photoblog)"
+msgstr "Mixte (Text/Photoblog)"
+
+#: ../classes/PhotoQOptionController.php:55
+msgid "Commercial Themes"
+msgstr "Thèmes Commerciaux"
+
+#: ../classes/PhotoQOptionController.php:63
+msgid "Switch Sides"
+msgstr "Envoyer de l'autre côté"
+
+#: ../classes/PhotoQOptionController.php:95
+#: ../classes/PhotoQOptionController.php:573
+#: ../classes/PhotoQOptionController.php:583
+#, php-format
+msgid "Default is %s"
+msgstr "Par défault c'est %s"
+
+#: ../classes/PhotoQOptionController.php:98
+msgid "Image Directory not found"
+msgstr "Le Répertoire des Images est introuvable :"
+
+#: ../classes/PhotoQOptionController.php:100
+msgid "Image Directory not writable"
+msgstr "Le Répertoire des Images n'est pas inscriptible :"
+
+#: ../classes/PhotoQOptionController.php:106
+msgid "Allow importing of photos from the following directory on the server"
+msgstr "Permettre l'importation des photos du répertoire suivant sur le serveur"
+
+#: ../classes/PhotoQOptionController.php:114
+#, php-format
+msgid "Full path (e.g., %s)"
+msgstr "Chemin complet (e.g., %s)"
+
+#: ../classes/PhotoQOptionController.php:139
+msgid "Name of new image size"
+msgstr "Nom de la nouvelle taille d'image"
+
+#: ../classes/PhotoQOptionController.php:156
+msgid "Hide folder containing original photos. If checked, PhotoQ will attribute a random name to the folder."
+msgstr "Cacher le dossier contenant les photos originelles. Si coché, PhotoQ attribuera au hasard un nom au dossier."
+
+#: ../classes/PhotoQOptionController.php:171
+msgid "Include photo description in post content (does not apply to freeform mode)."
+msgstr "Inclure la description de la photo dans le contenu de l'article (ne s'applique pas au mode freeform)."
+
+#: ../classes/PhotoQOptionController.php:172
+msgid "Photo Description"
+msgstr "Description de la Photo"
+
+#: ../classes/PhotoQOptionController.php:180
+msgid "Include Exif data in post content (does not apply to freeform mode)."
+msgstr "Inclure les données Exif dans le contenu de l'article (ne s'applique pas au mode freeform)."
+
+#: ../classes/PhotoQOptionController.php:181
+msgid "Exif Meta Data"
+msgstr "Meta Données Exif"
+
+#: ../classes/PhotoQOptionController.php:208
+msgid "Cronjob runs every"
+msgstr "La tâche cron est lancée toutes les"
+
+#: ../classes/PhotoQOptionController.php:210
+msgid "hours"
+msgstr "heures"
+
+#: ../classes/PhotoQOptionController.php:219
+msgid "Use settings of second post button for automatic posting."
+msgstr "Utiliser les options du second bouton de publication pour la publication automatique."
+
+#: ../classes/PhotoQOptionController.php:228
+msgid "When cronjob runs, automatically add FTP uploads to queue."
+msgstr "Quand la tâche cron est lancée, ajouter automatiquement les fichiers à importer par FTP à la queue."
+
+#: ../classes/PhotoQOptionController.php:253
+#: ../classes/PhotoQOptionController.php:275
+#: ../classes/PhotoQOptionController.php:297
+#: ../classes/PhotoQOptionController.php:1542
+msgid "px high"
+msgstr "px de hauteur"
+
+#: ../classes/PhotoQOptionController.php:263
+msgid "Thumbs shown in PhotoQ edit dialogs are maximum"
+msgstr "Les miniatures affichées sur les pages d'édition de PhotoQ ont au maximum"
+
+#: ../classes/PhotoQOptionController.php:264
+#: ../classes/PhotoQOptionController.php:286
+#: ../classes/PhotoQOptionController.php:1531
+msgid "px wide"
+msgstr "px de largeur"
+
+#: ../classes/PhotoQOptionController.php:285
+msgid "Thumbs shown in WordPress post editing dialog are maximum"
+msgstr "Les miniatures affichés sur la page d'édition des articles de Wordpress ont au maximum"
+
+#: ../classes/PhotoQOptionController.php:308
+msgid "Get default description automatically from EXIF &ldquo;ImageDescription&rdquo; field."
+msgstr "Obtenir automatiquement la description par défaut du champ EXIF &ldquo;ImageDescription&rdquo;."
+
+#: ../classes/PhotoQOptionController.php:317
+msgid "Get auto title from EXIF &ldquo;ImageDescription&rdquo; field instead of filename, unless field is empty."
+msgstr "Obtenir automatiquement le titre du champ EXIF &ldquo;ImageDescription&rdquo; au lieu du nom du fichier, sauf si le champ est vide."
+
+#: ../classes/PhotoQOptionController.php:323
+msgid "Custom Filter"
+msgstr "Filtre personnalisé"
+
+#: ../classes/PhotoQOptionController.php:327
+#, php-format
+msgid "An auto title is a title that is generated automatically from the filename. By default PhotoQ creates auto titles by removing the suffix from the filename, replacing hyphens and underscores with spaces and by capitalizing the first letter of every word. You can specify an additional custom filter to remove more from the filename above. Perl regular expressions are allowed, parts of filenames that match the regex are removed (regex special chars %s need to be escaped with a backslash). Note that the custom filter is applied first, before any of the default replacements."
+msgstr "Un titre automatique est un titre qui est généré automatiquement à partir du nom de fichier. Par défaut PhotoQ crée les titres automatiques en supprimant le suffixe du nom de fichier, en replaçant les traits d'union et tirets bas par des espaces et en mettant en majuscule la première lettre de chaque mot. Vous pouvez spécifier un filtre personnalisé additionnel pour supprimer plus d'éléments du nom de fichier ci-dessus. Les expressions régulières Perl sont acceptées, les parties du nom de fichier qui correspondent à l'expression régulière sont supprimées (les caractères spéciaux regex %s doivent être échappés avec un anti-slash). Notez que le filtre personnalisé est appliqué en première position, avant tout autre remplacement par défault."
+
+#: ../classes/PhotoQOptionController.php:329
+msgid "Examples: <code>IMG</code> to remove the string \"IMG\" from anywhere within the filename, <code>^IMG</code> to remove \"IMG\" from beginning of filename."
+msgstr "Exemple : <code>IMG</code> pour supprimer la chaîne de caractères \"IMG\" du nom de fichier, <code>^IMG</code> pour supprimer \"IMG\" uniquement du début du fichier."
+
+#: ../classes/PhotoQOptionController.php:336
+msgid "Do not capitalize words with"
+msgstr "Ne pas mettre en majuscule les mots ayant"
+
+#: ../classes/PhotoQOptionController.php:338
+msgid "characters or less,"
+msgstr "caractères ou moins,"
+
+#: ../classes/PhotoQOptionController.php:346
+msgid "except for the following words"
+msgstr "excepté les mots suivants"
+
+#: ../classes/PhotoQOptionController.php:350
+msgid "(Separate words with commas)"
+msgstr "(Séparer les mots par des virgules)"
+
+#: ../classes/PhotoQOptionController.php:359
+msgid "Do not capitalize any of the following words (Separate words with commas)"
+msgstr "Ne mettre en majuscule aucun des mots suivants (Séparer les mots par des virgules)"
+
+#: ../classes/PhotoQOptionController.php:372
+msgid "Second post button posts "
+msgstr "Le Second bouton de publication publie"
+
+#: ../classes/PhotoQOptionController.php:374
+msgid " photos at once."
+msgstr " photos en une fois."
+
+#: ../classes/PhotoQOptionController.php:384
+msgid "Fold away category lists per default."
+msgstr "Replier par défaut les listes de catégories."
+
+#: ../classes/PhotoQOptionController.php:392
+msgid "Delete image files from server when deleting post."
+msgstr "Supprimer les images du serveur lors de la suppression de l'article."
+
+#: ../classes/PhotoQOptionController.php:400
+msgid "Enable Batch Uploads."
+msgstr "Activer les Importations par Lots."
+
+#: ../classes/PhotoQOptionController.php:408
+msgid "This is the default status of posts posted via PhotoQ."
+msgstr "Ceci est le status par défaut des articles publiés via PhotoQ."
+
+#: ../classes/PhotoQOptionController.php:417
+msgid "PhotoQ will fall back to this author if no author can be determined by any other means. This is for example the case if photos are automatically added to the queue through cronjobs."
+msgstr "PhotoQ sélectionnera ce auteur si aucun auteur ne peut être déterminé. C'est par exemple le cas quand les photos sont automatiquement ajoutée à la queue lors des tâches cron."
+
+#: ../classes/PhotoQOptionController.php:425
+msgid "This is the default category for posts posted via PhotoQ."
+msgstr "Ceci est la catégorie par défault pour les articles créés à partir de PhotoQ."
+
+#: ../classes/PhotoQOptionController.php:433
+msgid "Every post posted via PhotoQ has these default tags:"
+msgstr "Chaque article soumis via PhotoQ a ces mots-clés par défaut :"
+
+#: ../classes/PhotoQOptionController.php:442
+msgid "Editor"
+msgstr "Editeur"
+
+#: ../classes/PhotoQOptionController.php:451
+msgid "Author"
+msgstr "Auteur"
+
+#: ../classes/PhotoQOptionController.php:465
+msgid "Position"
+msgstr "Position"
+
+#: ../classes/PhotoQOptionController.php:469
+msgid "Bottom Right"
+msgstr "En Bas à Droite"
+
+#: ../classes/PhotoQOptionController.php:470
+msgid "Bottom Left"
+msgstr "En Bas à Gauche"
+
+#: ../classes/PhotoQOptionController.php:471
+msgid "Top Right"
+msgstr "En Haut à Droite"
+
+#: ../classes/PhotoQOptionController.php:472
+msgid "Top Left"
+msgstr "En Haut à Gauche"
+
+#: ../classes/PhotoQOptionController.php:473
+msgid "Center"
+msgstr "Au Centre"
+
+#: ../classes/PhotoQOptionController.php:474
+msgid "Right"
+msgstr "A Droite"
+
+#: ../classes/PhotoQOptionController.php:475
+msgid "Left"
+msgstr "A Gauche"
+
+#: ../classes/PhotoQOptionController.php:476
+msgid "Top"
+msgstr "En Haut"
+
+#: ../classes/PhotoQOptionController.php:477
+msgid "Bottom"
+msgstr "En Bas"
+
+#: ../classes/PhotoQOptionController.php:478
+msgid "Tile"
+msgstr "En Mosaïque"
+
+#: ../classes/PhotoQOptionController.php:488
+msgid "Opacity"
+msgstr "Opacité"
+
+#: ../classes/PhotoQOptionController.php:498
+msgid "left/right"
+msgstr "gauche/droite"
+
+#: ../classes/PhotoQOptionController.php:499
+msgid "Margins"
+msgstr "Marges"
+
+#: ../classes/PhotoQOptionController.php:510
+msgid "top/bottom"
+msgstr "haut/bas"
+
+#: ../classes/PhotoQOptionController.php:512
+msgid "Values smaller than one are interpreted as percentages instead of pixels."
+msgstr "Les valeurs inférieures à 1 sont interprêtées comme pourcentages et non pixels."
+
+#: ../classes/PhotoQOptionController.php:525
+msgid "Add to already posted as well."
+msgstr "Ajouter aussi aux articles déjà postés."
+
+#: ../classes/PhotoQOptionController.php:533
+msgid "Delete from already posted as well."
+msgstr "Supprimer aussi des articles déjà postés."
+
+#: ../classes/PhotoQOptionController.php:540
+msgid "Rename already posted as well."
+msgstr "Renommer aussi pour les articles déjà postés."
+
+#: ../classes/PhotoQOptionController.php:559
+msgid "selected"
+msgstr "sélectionné"
+
+#: ../classes/PhotoQOptionController.php:560
+msgid "deselected"
+msgstr "déselectionné"
+
+#: ../classes/PhotoQOptionController.php:572
+msgid "Before List"
+msgstr "Avant la Liste"
+
+#: ../classes/PhotoQOptionController.php:582
+msgid "After List"
+msgstr "Après la List"
+
+#: ../classes/PhotoQOptionController.php:592
+msgid "Between Elements"
+msgstr "Entre les Eléments"
+
+#: ../classes/PhotoQOptionController.php:602
+msgid "Element Formatting"
+msgstr "Formatage des Elements"
+
+#: ../classes/PhotoQOptionController.php:604
+#, php-format
+msgid "You can specify the HTML that should be printed for each element here. Two shortags %1$s and %2$s are available. %1$s is replaced with the name of the EXIF tag, %2$s with its value. Here is an example, showing the default value: %3$s"
+msgstr "Vous pouvez spécifier ici le HTML qui doit généré pour chaque élément. Deux balises %1$s et %2$s sont disponibles. %1$s est remplacé par le nom de l'étiquette EXIF, %2$s par sa valeur. Voici un example montrant la valeur par défaut : %3$s"
+
+#: ../classes/PhotoQOptionController.php:631
+msgid "Cache Directory not found"
+msgstr "Répertoire de Cache introuvable"
+
+#: ../classes/PhotoQOptionController.php:636
+msgid "Cache Directory not writeable"
+msgstr "Impossible d'écrire dans le Répertoire de Cache"
+
+#: ../classes/PhotoQOptionController.php:1065
+msgid "My PhotoQ Presets"
+msgstr "Mes Préréglages PhotoQ"
+
+#: ../classes/PhotoQOptionController.php:1072
+msgid "Choose your Theme Preset: "
+msgstr "Choisissez votre Préréglage de Thème :"
+
+#: ../classes/PhotoQOptionController.php:1492
+msgid "Image Quality"
+msgstr "Qualité de l'Image"
+
+#: ../classes/PhotoQOptionController.php:1502
+msgid "Add watermark to all images of this size."
+msgstr "Ajouter un filigrane à toutes les images de cette taille."
+
+#: ../classes/PhotoQOptionController.php:1503
+msgid "Watermark"
+msgstr "Filigrane"
+
+#: ../classes/PhotoQOptionController.php:1521
+msgid "Maximum Dimensions"
+msgstr "Dimensions Maximum"
+
+#: ../classes/PhotoQOptionController.php:1551
+msgid "Crop to max. dimension"
+msgstr "Rogner pour obtenir la dimension max."
+
+#: ../classes/PhotoQOptionController.php:1561
+msgid "Smallest side"
+msgstr "Plus petit côté"
+
+#: ../classes/PhotoQOptionController.php:1580
+msgid "Landscape Width"
+msgstr "Largeur en Paysage"
+
+#: ../classes/PhotoQOptionController.php:1600
+msgid "Original Size"
+msgstr "Taille d'Origine"
+
+#: ../classes/PhotoQOptionController.php:1602
+msgid "Keep original image size, don't resize"
+msgstr "Garder la taille d'origine de l'image, ne pas redimensionner"
+
+#: ../classes/PhotoQOptionController.php:1675
+msgid "Empty, don't manage."
+msgstr "Vide, ne pas gérer."
+
+#: ../classes/PhotoQOptionController.php:1684
+msgid "Single Photo"
+msgstr "Photo Unique"
+
+#: ../classes/PhotoQOptionController.php:1701
+msgid "Image Link"
+msgstr "Lien de l'Image"
+
+#: ../classes/PhotoQOptionController.php:1710
+msgid " linking to "
+msgstr " a un lien vers"
+
+#: ../classes/PhotoQOptionController.php:1726
+msgid "link having following attributes"
+msgstr "lien ayant les attributs suivants"
+
+#: ../classes/PhotoQOptionController.php:1729
+msgid "Allows interaction with JS libraries such as Lightbox and Shutter Reloaded without modifying templates."
+msgstr "Permet l'interaction avec les librairies JS comme Lightbox et Shutter Reloaded sans modifier les fichiers de thème."
+
+#: ../classes/PhotoQOptionController.php:1737
+msgid "Freeform"
+msgstr "Freeform"
+
+#: ../classes/PhotoQOptionController.php:1746
+#, php-format
+msgid "HTML as well as the following shorttags are allowed: %s, where %s has to be replaced with the name of the existing image size (e.g. %s or %s) that you want to use."
+msgstr "Le HTML aussi bien que les balises suivantes sont autorisés : %s, où %s doit être remplacé par le nom de la taille d'image existante (e.g. %s ou %s) que vous voulez utiliser."
+
+#: ../classes/PhotoQOptionController.php:1845
+msgid "Note: ImageMagick does not seem to be installed at the location you specified. ImageMagick is optional but might be needed to process bigger photos, plus PhotoQ might run faster if you configure ImageMagick correctly. If you don't care about ImageMagick and are happy with using the GD library you can safely ignore this message."
+msgstr "Note : ImageMagick ne semble pas être installé à l'endroit que vous avez spécifié. ImageMagick est optionel mais peut être nécessaire pour traiter les grosses images ; de plus, PhotoQ pourra être plus rapide si vous configurez correctement ImageMagick. Si ImageMagick vous importe peu et que l'utilisation de la librairie GD vous convient, vous pouvez ignorer ce message sans problème."
+
+#: ../classes/PhotoQOptionController.php:1869
+msgid "Display Name"
+msgstr "Nom Affiché"
+
+#: ../classes/PhotoQOptionController.php:1880
+msgid "Create post tags from EXIF data"
+msgstr "Créer les mots-clés de l'article à partir des données EXIF"
+
+#: ../classes/PhotoQOptionController.php:1910
+msgid "Allowed to use primary post button"
+msgstr "Peut utiliser le premier bouton de publication"
+
+#: ../classes/PhotoQOptionController.php:1918
+msgid "Allowed to use secondary post button"
+msgstr "Peut utiliser le premier bouton de publication"
+
+#: ../classes/PhotoQOptionController.php:1926
+msgid "Allowed to reorder queue"
+msgstr "Peut réordonner la queue"
+
+#: ../classes/PhotoQPhoto.php:157
+#, php-format
+msgid "Could not delete photo %s from server. Please delete manually."
+msgstr "Impossible de supprimer la photo %s du serveur. Veuillez la supprimer manuellement."
+
+#: ../classes/PhotoQPhoto.php:159
+msgid "Entry successfully removed from queue. Corresponding files deleted from server."
+msgstr "Entrée supprimée avec succès de la queue. Fichiers correspondant supprimés du serveur."
+
+#: ../classes/PhotoQPhoto.php:601
+msgid "Title"
+msgstr "Titre"
+
+#: ../classes/PhotoQPhoto.php:602
+msgid "Description"
+msgstr "Description"
+
+#: ../classes/PhotoQPhoto.php:606
+msgid "Tags (separate multiple tags with commas: cats, pet food, dogs)"
+msgstr "Mots-clés (séparer les mots-clés multiples par des virgules : chats, aliment pour animal domestique, chiens)"
+
+#: ../classes/PhotoQPhoto.php:609
+msgid "Slug"
+msgstr "Identifiant"
+
+#: ../classes/PhotoQPhoto.php:610
+msgid "Post Author"
+msgstr "Auteur de l'Article"
+
+#: ../classes/PhotoQQueue.php:84
+#, php-format
+msgid "You do not have privileges to delete: %s"
+msgstr "Vous n'avez pas la permission de supprimer : %s"
+
+#: ../classes/PhotoQQueue.php:87
+#, php-format
+msgid "Could not find photo to delete: %s"
+msgstr "Impossible de trouver la photo à supprimer : %s"
+
+#: ../classes/PhotoQQueue.php:125
+#, php-format
+msgid "Could not find photo with ID: %s"
+msgstr "Impossible de trouver la photo ayant l'ID : %s"
+
+#: ../classes/PhotoQQueue.php:149
+#: ../classes/PhotoQQueue.php:189
+msgid "Queue is empty, nothing to post."
+msgstr "Queue vide, rien à publier."
+
+#: ../classes/PhotoQQueue.php:155
+msgid "Your post has been saved."
+msgstr "Votre article a été enregistré."
+
+#: ../classes/PhotoQQueue.php:155
+msgid "View post"
+msgstr "Voir article"
+
+#: ../classes/PhotoQQueue.php:155
+msgid "Edit post"
+msgstr "Editer article"
+
+#: ../classes/PhotoQQueue.php:159
+#: ../classes/PhotoQQueue.php:203
+msgid "Publishing Photo did not succeed."
+msgstr "La publication de la photo n'a pas réussi."
+
+#: ../classes/PhotoQQueue.php:206
+msgid "Your posts have been saved."
+msgstr "Vos articles ont été enregistrés."
+
+#: ../panels/changePostedPhotoForm.php:2
+msgid "PhotoQ Photo"
+msgstr "Photo importée grâce à PhotoQ"
+
+#: ../panels/changePostedPhotoForm.php:21
+msgid "To change the current photo of this post, select a new one here and update the post."
+msgstr "Pour changer la photo actuelle de cet article, veuillez en sélectionner une nouvelle ici et mettre à jour l'article."
+
+#: ../panels/edit-batch.php:6
+msgid "Manage PhotoQ - Enter Info"
+msgstr "Gérer PhotoQ - Entrer les Infos"
+
+#: ../panels/edit-batch.php:28
+msgid "Save Batch Info"
+msgstr "Enregistrer les Infos de Lot"
+
+#: ../panels/manage.php:25
+msgid "Queue empty, why not upload some photos?"
+msgstr "La queue est vide, que diriez-vous d'importer des photos?"
+
+#: ../panels/manage.php:35
+msgid "Clear Queue..."
+msgstr "Vider la Queue..."
+
+#: ../panels/manage.php:37
+msgid "Are you sure you want to clear the entire queue?"
+msgstr "Etes-vous sûr de vouloir vider la queue?"
+
+#: ../panels/manage.php:43
+msgid "Sort Criterion:"
+msgstr "Critère de Classement :"
+
+#: ../panels/manage.php:44
+msgid "Capture Date (oldest first)"
+msgstr "Date de Photographie (plus ancien en premier)"
+
+#: ../panels/manage.php:45
+msgid "Capture Date (newest first)"
+msgstr "Date de Photographie (plus récent en premier)"
+
+#: ../panels/manage.php:46
+msgid "Title (ascending)"
+msgstr "Titre (ascendant)"
+
+#: ../panels/manage.php:47
+msgid "Title (descending)"
+msgstr "Titre (descendant)"
+
+#: ../panels/manage.php:48
+msgid "Filename (ascending)"
+msgstr "Nom de fichier (ascendant)"
+
+#: ../panels/manage.php:49
+msgid "Filename (descending)"
+msgstr "Nom de fichier (descendant)"
+
+#: ../panels/manage.php:50
+msgid "Random"
+msgstr "Aléatoire"
+
+#: ../panels/manage.php:61
+#, php-format
+msgid "Post Next %d Photos..."
+msgstr "Publier les %d Photos Suivantes..."
+
+#: ../panels/manage.php:63
+msgid "Post Whole Queue..."
+msgstr "Publier toute la queue..."
+
+#: ../panels/manage.php:69
+msgid "Are you really sure you want to publish the next entries in the queue?"
+msgstr "Etes-vous sûr de vouloir publier les entrées suivantes de la queue?"
+
+#: ../panels/manage.php:76
+msgid "Post Top of Queue..."
+msgstr "Publier le Début de la Queue..."
+
+#: ../panels/manage.php:77
+msgid "Are you sure you want to publish the first entry of the queue?"
+msgstr "Etes-vous sûr de vouloir publier la première entrée de la queue?"
+
+#: ../panels/manage.php:87
+msgid "Thumbnail"
+msgstr "Miniature"
+
+#: ../panels/manage.php:91
+msgid "Captured"
+msgstr "Photographié"
+
+#: ../panels/manage.php:118
+msgid "Click to see full-size photo"
+msgstr "Cliquer pour voir l'image en taille réelle"
+
+#: ../panels/manage.php:129
+msgid "Edit"
+msgstr "Editer"
+
+#: ../panels/manage.php:134
+msgid "Delete entry? Corresponding image will also be deleted from server?"
+msgstr "Supprimer cette entrée ? L'image correspondante sera aussi supprimée du serveur ?"
+
+#: ../panels/manage.php:134
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../panels/options.php:7
+msgid "Auto Configuration"
+msgstr "Auto Configuration"
+
+#: ../panels/options.php:11
+msgid "Users - Load Theme Preset: "
+msgstr "Utilisateurs - Charger un Préréglage de Thème :"
+
+#: ../panels/options.php:17
+msgid "Are you sure? This will override some of your current settings. Further, all of your published posts will be rebuilt, which might take a while."
+msgstr "Etes-vous sûr? Ceci écrasera certains de vos réglages actuels. De plus, tous vos articles publiés seront reconstruits, ce qui peut durer un bon moment."
+
+#: ../panels/options.php:29
+msgid "Theme Authors - Create Theme Preset: "
+msgstr "Auteurs de Thèmes - Créer un Préréglage de Thème :"
+
+#: ../panels/options.php:31
+msgid "Want your theme included in above list? All you need to do is to create a preset using the form below and make it available to the users of your theme. If you want me to include your preset as one of PhotoQ's defaults, please additionally send me a pointer to the preset you created."
+msgstr "Vous voulez-que votre thème soit inclu dans la liste ci-dessus? Il vous suffit de créer un préréglage en utilisant le formulaire ci-dessous et de le mettre à la disposition des utilisateurs de votre thème. Si vous voulez que j'inclue votre préréglage par défaut dans PhotoQ, veuillez m'envoyez aussi un lien vers le préréglage que vous avez créé."
+
+#: ../panels/options.php:33
+msgid "All of the following information is optional. However, the more complete the info is, the better. Also, more accurate info increases the chances that I will include your preset as a default."
+msgstr "Toutes les informations suivantes sont optionnelle. Néanmoins, il est mieux que les informations soient les plus complètes possible. De plus, des informations plus exactes augmentent les chances que j'inclue votre préréglage par défaut."
+
+#: ../panels/options.php:38
+msgid "Filename"
+msgstr "Nom du fichier"
+
+#: ../panels/options.php:43
+msgid "Theme Name"
+msgstr "Nom du Thème"
+
+#: ../panels/options.php:45
+msgid "Version"
+msgstr "Version"
+
+#: ../panels/options.php:49
+msgid "Theme Category"
+msgstr "Catégorie du Thème"
+
+#: ../panels/options.php:59
+msgid "Theme URL"
+msgstr "URL du Thème"
+
+#: ../panels/options.php:64
+msgid "Theme Author Name"
+msgstr "Nom de l'Auteur du Thème"
+
+#: ../panels/options.php:69
+msgid "Theme Author Contact Info (URL/Email)"
+msgstr "Informations de Contact de l'Auteur du Thème (URL/Email)"
+
+#: ../panels/options.php:74
+msgid "Your Name"
+msgstr "Votre Nom"
+
+#: ../panels/options.php:79
+msgid "Your Contact Info (URL/Email)"
+msgstr "Vos Informations de Contact (URL/Email)"
+
+#: ../panels/options.php:85
+msgid "Include default Tags"
+msgstr "Inclure les Mots-clés par défaut"
+
+#: ../panels/options.php:87
+msgid "Include default Category"
+msgstr "Inclure la catégorie par défaut"
+
+#: ../panels/options.php:111
+msgid "Image sizes"
+msgstr "Tailles d'image"
+
+#: ../panels/options.php:127
+msgid "Add Image Size"
+msgstr "Ajouter une Taille d'Image"
+
+#: ../panels/options.php:134
+msgid "Hide 'original' folder"
+msgstr "Cacher le dossier 'original'"
+
+#: ../panels/options.php:141
+msgid "Current name"
+msgstr "Nom Actuel"
+
+#: ../panels/options.php:149
+msgid "Views"
+msgstr "Vues"
+
+#: ../panels/options.php:174
+msgid "Exif"
+msgstr "Exif"
+
+#: ../panels/options.php:181
+msgid "Exif Formatting Options:"
+msgstr "Options de Formatage Exif:"
+
+#: ../panels/options.php:188
+msgid "Choose Exif Tags"
+msgstr "Choisir les Etiquettes Exif"
+
+#: ../panels/options.php:189
+msgid "You can select/deselect EXIF tags via drag-and-drop between the two lists.<br/>Within the list of selected tags you can also change the order via drag-and-drop."
+msgstr "Vous pouvez sélectionner/déselectionner les étiquettes Exif par glisser-déposer entre les deux listes.<br />Dans la liste des étiquettes sélectionnées, vous pouvez aussi modifier l'ordre par glisser-déposer."
+
+#: ../panels/options.php:194
+msgid "No tags yet. PhotoQ will learn exif tags from uploaded photos. Upload a photo first, then come back and choose your exif tags here."
+msgstr "Pas encore d'étiquette. PhotoQ extraira les étiquettes exif des photos importées. Importez d'abord une photo, ensuite revenez choisir vos étiquettes exif ici."
+
+#: ../panels/options.php:206
+msgid "Watermarking"
+msgstr "Ajout de Filigrane"
+
+#: ../panels/options.php:210
+msgid "Watermark Image"
+msgstr "Image du Filigrane"
+
+#: ../panels/options.php:216
+msgid "Change Watermark"
+msgstr "Changer Filigrane"
+
+#: ../panels/options.php:229
+msgid "Meta Fields"
+msgstr "Champs Personnalisés"
+
+#: ../panels/options.php:235
+msgid "Upon Add:"
+msgstr "A l'Ajout :"
+
+#: ../panels/options.php:236
+msgid "Upon Delete:"
+msgstr "A la Suppression :"
+
+#: ../panels/options.php:237
+msgid "Upon Rename:"
+msgstr "Au Renommage :"
+
+#: ../panels/options.php:247
+msgid "Defined Fields:"
+msgstr "Champs Définis :"
+
+#: ../panels/options.php:263
+msgid "Name of new field"
+msgstr "Nom du nouveau champ"
+
+#: ../panels/options.php:270
+msgid "Add Meta Field"
+msgstr "Ajouter Champ Personnalisé"
+
+#: ../panels/options.php:278
+msgid "Further Options"
+msgstr "Options Supplémentaires"
+
+#: ../panels/options.php:286
+msgid "Second Post Button:"
+msgstr "Second Bouton de Publication :"
+
+#: ../panels/options.php:287
+msgid "Automatic Posting:"
+msgstr "Publication Automatique :"
+
+#: ../panels/options.php:288
+msgid "PhotoQ Post Status:"
+msgstr "Status des Articles Importés Grâce à PhotoQ :"
+
+#: ../panels/options.php:289
+msgid "PhotoQ Default Category:"
+msgstr "Catégorie Par Défaut pour PhotoQ :"
+
+#: ../panels/options.php:290
+msgid "PhotoQ Default Author:"
+msgstr "Auteur par défaut pour PhotoQ :"
+
+#: ../panels/options.php:291
+msgid "PhotoQ Default Tags:"
+msgstr "Tags Par Défaut pour PhotoQ :"
+
+#: ../panels/options.php:292
+msgid "Auto Titles:"
+msgstr "Titres Automatiques :"
+
+#: ../panels/options.php:293
+msgid "Auto Description:"
+msgstr "Auto-Description :"
+
+#: ../panels/options.php:294
+msgid "Roles/Capabilities:"
+msgstr "Rôles/Permissions :"
+
+#: ../panels/options.php:295
+msgid "Admin Thumbs:"
+msgstr "Miniatures dans l'Administration :"
+
+#: ../panels/options.php:296
+msgid "Fold Categories:"
+msgstr "Replier les Catégories :"
+
+#: ../panels/options.php:297
+msgid "Deleting Posts:"
+msgstr "Suppression des Articles :"
+
+#: ../panels/options.php:298
+msgid "Batch Uploads:"
+msgstr "Importation par Lot :"
+
+#: ../panels/options.php:304
+msgid "Image Directory:"
+msgstr "Répertoire des Images :"
+
+#: ../panels/options.php:305
+msgid "FTP Upload:"
+msgstr "Importation par FTP :"
+
+#: ../panels/options.php:306
+#: ../panels/options.php:311
+msgid "ImageMagick Path:"
+msgstr "Chemin vers ImageMagick :"
+
+#: ../panels/options.php:311
+msgid "(Sitewide Setting)"
+msgstr "(Réglage Général)"
+
+#: ../panels/options.php:326
+msgid "Maintenance"
+msgstr "Maintenance"
+
+#: ../panels/options.php:332
+msgid "Upgrade:"
+msgstr "Mise à jour :"
+
+#: ../panels/options.php:335
+#: ../panels/upgrade.php:6
+msgid "Upgrade from PhotoQ < 1.5"
+msgstr "Mise à jour à partir d'une version < 1.5"
+
+#: ../panels/options.php:338
+msgid "Fix Permissions:"
+msgstr "Corriger les Permissions :"
+
+#: ../panels/options.php:341
+msgid "Fix File and Folder Permissions"
+msgstr "Corriger les Permissions des Fichiers et Répertoires"
+
+#: ../panels/options.php:346
+msgid "Rebuild Published:"
+msgstr "Réinitialiser Photos Publiées :"
+
+#: ../panels/options.php:349
+msgid "Rebuild All Published Photos"
+msgstr "Réinitialiser Toutes les Photos Publiées"
+
+#: ../panels/options.php:351
+msgid "Are you sure? This will rebuild all published photos recreating all the thumbs. It might thus take a while."
+msgstr "Etes-vous sûr? Cela réinitialisera toutes les photos publiées et recréera toutes les miniatures. Ce qui peut durer un bon moment."
+
+#: ../panels/upgrade-move-imgdir.php:6
+msgid "Move Image Directory to wp-content"
+msgstr "Déplacer le Répertoire Image vers wp-content"
+
+#: ../panels/upgrade-move-imgdir.php:33
+msgid "Move"
+msgstr "Déplacer"
+
+#: ../panels/upgrade.php:8
+msgid "Please read the instructions before doing the upgrade"
+msgstr "Veuillez lire les instructions avant de faire la mise à jour"
+
+#: ../panels/upgrade.php:9
+msgid "And remember: Not saving your wordpress database before might turn out to be one of the most stupid things you did lately."
+msgstr "Et rappelez-vous : Ne pas sauvegarder votre base de données wordpress peut se révéler être l'une des choses les plus stupides que vous ayiez fait récemment."
+
+#: ../panels/upgrade.php:10
+msgid "The following photos will be imported:"
+msgstr "Les photos suivantes seront importées :"
+
+#: ../panels/upgrade.php:18
+msgid "Number of photos to import:"
+msgstr "Nombre de photos à importer :"
+
+#: ../panels/upgrade.php:28
+msgid "Upgrade"
+msgstr "Mise à jour"
+
+#: ../panels/upgrade.php:40
+msgid "Remove old folder structure"
+msgstr "Supprimer l'ancienne structure de dossier"
+
+#: ../panels/upgrade.php:42
+msgid "Please only do this once you are sure your update was successful."
+msgstr "Veuillez effectuer ceci uniquement après vous être assuré du succès de votre mise à jour."
+
+#: ../panels/upgrade.php:43
+msgid "The following folders will be deleted:"
+msgstr "Les dossiers suivants seront supprimés :"
+
+#: ../panels/upgrade.php:56
+msgid "Delete Folders"
+msgstr "Supprimer Dossiers"
+
+#: ../panels/upload.php:6
+msgid "Manage PhotoQ - Upload"
+msgstr "Gérer PhotoQ - Importation"
+
+#: ../panels/upload.php:11
+msgid "Enter common info:"
+msgstr "Entrer les infos générales :"
+
+#: ../panels/upload.php:31
+msgid "Import/Enter Info &raquo;"
+msgstr "Importer/Entrer Info &raquo;"
+
+#: ../panels/upload.php:31
+msgid "Enter Info &raquo;"
+msgstr "Entrer Info &raquo;"
+
+#: ../panels/upload.php:62
+msgid "Import from FTP directory..."
+msgstr "Importer d'un répertoire FTP..."
+
+#: ../panels/uploadWatermark.php:8
+msgid "Upload New Watermark"
+msgstr "Importer Nouveau Filigrane"
+
+#: ../panels/uploadWatermark.php:14
+msgid "Locate Watermark:"
+msgstr "Localiser le Filigrane :"
+
+#: ../panels/uploadWatermark.php:30
+msgid "Upload"
+msgstr "Importation"
+
+#~ msgid "Please choose a valid name for your image size."
+#~ msgstr "Veuillez choisir un nom valide pour votre taille d'image."
+#~ msgid ""
+#~ "Successfully uploaded. '%1$s' added to queue at position %2$d.|filename "
+#~ "postion"
+#~ msgstr ""
+#~ "Importé avec succès. '%1$s' ajouté à la queue à la position %2$d.|"
+#~ "filename postion"
+
+#, fuzzy
+#~ msgid "Please wait, updating"
+#~ msgstr "Veuillez patienter, mise à jour en cours"
+#~ msgid "complete."
+#~ msgstr "terminée."
+#~ msgid "Error when creating directory: %s| dirname"
+#~ msgstr "Erreur lors de la création du répertoire : %s| dirname"
+#~ msgid "Unable to move %s, posting aborted.| imgname"
+#~ msgstr "Impossible de déplacer %s, publication annulée.| imgname"
+#~ msgid "Unable to copy %s, posting aborted.| imgname"
+#~ msgstr "Impossible de copier %s, publication annulée.| imgname"
+#~ msgid "Image %s already exists, posting aborted.| imgname"
+#~ msgstr "L'image %s existe déjà, publication annulée.| imgname"
+#~ msgid ""
+#~ "Absolute path to the ImageMagick convert executable. (e.g. %1$s ). Leave "
+#~ "empty if %2$s is in the path.| example programname"
+#~ msgstr ""
+#~ "Chemin absolu vers l'exécutable de conversion de ImageMagick. (e.g. %1"
+#~ "$s ). Laisser vide si %2$s est dans le chemin.| example programname"
+#~ msgid ""
+#~ "Thumbs shown in list of published photos are maximum | ends with: px wide"
+#~ msgstr ""
+#~ "Les miniatures affichées dans la liste des photos publiées ont au maximum"
+#~ msgid "px wide| starts with: thumbs ... are"
+#~ msgstr "px de largeur"
+#~ msgid ""
+#~ "for, and, nor, but, yet, both, either, neither, the, for, with, from, "
+#~ "because, after, when, although, while|english words that are not "
+#~ "capitalized"
+#~ msgstr ""
+#~ "pour, et, pas, plus, mais, encore, aussi, non, le, avec, de, car, après, "
+#~ "quand, même, si|mots français non transformés en majuscule"
+#~ msgid ""
+#~ "Could not create image size. The required directory in %s could not be "
+#~ "created. Please check your settings and/or PHP Safe Mode."
+#~ msgstr ""
+#~ "Impossible de créer la taille d'image. Le répertoire requis dans %s n'a "
+#~ "pas été pu être créé. Veuillez vérifier votre configuration et/ou le Safe "
+#~ "Mode de PHP."
+#~ msgid "Name already taken, please choose another name."
+#~ msgstr "Nom déjà utilisé, veuillez choisir un autre nom."
+#~ msgid "Image size successfully removed."
+#~ msgstr "Taille d'image supprimée avec succès."
+#~ msgid "Add new Meta Field"
+#~ msgstr "Ajouter nouveau Champ Personnalisé"
+#~ msgid "Add field"
+#~ msgstr "Ajouter champ"
+#~ msgid "PhotoQ < 1.5.2:"
+#~ msgstr "PhotoQ <1.5.2 :"
+#~ msgid "Move ImgDir to wp-content"
+#~ msgstr "Déplacer ImgDir vers wp-content"
+
